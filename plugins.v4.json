@@ -46,11 +46,11 @@
     {
       "id": "napcat-plugin-group-manager",
       "name": "NapCat 群管插件",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "轻量级群管插件，集成了入群欢迎、违禁词过滤及管理员命令。",
       "author": "Chace",
       "homepage": "https://github.com/chaceqc/napcat-plugin-group-manager",
-      "downloadUrl": "https://github.com/chaceqc/napcat-plugin-group-manager/releases/download/v1.1.0/napcat-plugin-group-manager.zip",
+      "downloadUrl": "https://github.com/chaceqc/napcat-plugin-group-manager/releases/download/v1.2.0/napcat-plugin-group-manager.zip",
       "tags": [
         "群管",
         "工具",
