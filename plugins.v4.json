@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updateTime": "2026-02-02T09:05:49Z",
+  "updateTime": "2026-02-02T09:12:41Z",
   "plugins": [
     {
       "id": "napcat-plugin-builtin",
@@ -103,11 +103,11 @@
     {
       "id": "napcat-plugin-auto-clear",
       "name": "自动清理",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "定时扫描并清理长期不发言的鱼干成员",
       "author": "AQiaoYo",
       "homepage": "https://github.com/AQiaoYo/napcat-plugin-auto-clear",
-      "downloadUrl": "https://github.com/AQiaoYo/napcat-plugin-auto-clear/releases/latest/download/napcat-plugin-auto-clear.zip",
+      "downloadUrl": "https://github.com/AQiaoYo/napcat-plugin-auto-clear/releases/download/v1.2.0/napcat-plugin-auto-clear.zip",
       "tags": [
         "工具",
         "管理"
