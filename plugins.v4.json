@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updateTime": "2026-02-03T03:52:51Z",
+  "updateTime": "2026-02-03T04:09:21Z",
   "plugins": [
     {
       "id": "napcat-plugin-builtin",
@@ -145,11 +145,11 @@
     {
       "id": "napcat-plugin-puppeteer",
       "name": "Puppeteer 渲染服务",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "description": "NapCat Puppeteer 渲染服务插件 - 提供 HTML/模板截图渲染 API，供其他插件调用",
       "author": "AQiaoYo",
       "homepage": "https://github.com/AQiaoYo/napcat-plugin-puppeteer",
-      "downloadUrl": "https://github.com/AQiaoYo/napcat-plugin-puppeteer/releases/download/v1.1.0/napcat-plugin-puppeteer.zip",
+      "downloadUrl": "https://github.com/AQiaoYo/napcat-plugin-puppeteer/releases/download/v1.1.1/napcat-plugin-puppeteer.zip",
       "tags": [
         "工具"
       ],
