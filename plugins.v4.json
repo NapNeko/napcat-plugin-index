@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updateTime": "2026-02-05T02:28:44Z",
+  "updateTime": "2026-02-05T16:49:56Z",
   "plugins": [
     {
       "id": "napcat-plugin-builtin",
@@ -171,11 +171,11 @@
     {
       "id": "napcat-plugin-cleaner",
       "name": "缓存清理",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "NapCat 缓存清理",
       "author": "NapNeko",
       "homepage": "https://napcat.napneko.icu",
-      "downloadUrl": "https://github.com/NapNeko/napcat-plugin-cleaner/releases/download/v1.1.0/napcat-plugin-cleaner.zip",
+      "downloadUrl": "https://github.com/NapNeko/napcat-plugin-index/releases/download/v1.0.0/napcat-plugin-cleaner.zip",
       "tags": [
         "官方",
         "工具"
