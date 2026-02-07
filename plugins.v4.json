@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updateTime": "2026-02-07T05:16:32Z",
+  "updateTime": "2026-02-07T05:24:56Z",
   "plugins": [
     {
       "id": "napcat-plugin-builtin",
@@ -227,11 +227,11 @@
     {
       "id": "napcat-plugin-steam-depot",
       "name": "Steam Depot",
-      "version": "1.1.8",
+      "version": "1.1.9",
       "description": "从 GitHub 仓库和 ManifestHub 数据源获取 Steam 游戏的 Manifest 和 Depot 解密密钥，自动生成 Lua 脚本并打包发送到 QQ 群",
       "author": "AQiaoYo",
       "homepage": "https://github.com/AQiaoYo/napcat-plugin-steam-depot",
-      "downloadUrl": "https://github.com/AQiaoYo/napcat-plugin-steam-depot/releases/download/v1.1.8/napcat-plugin-steam-depot.zip",
+      "downloadUrl": "https://github.com/AQiaoYo/napcat-plugin-steam-depot/releases/download/v1.1.9/napcat-plugin-steam-depot.zip",
       "tags": [
         "工具"
       ],
