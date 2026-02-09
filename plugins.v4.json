@@ -347,6 +347,19 @@
         "自动化"
       ],
       "minVersion": "4.14.0"
-    }
+    },
+    {
+      "id": "napcat-plungin-minecraft-connector",
+      "name": "Minecraft 服务器连接器",
+      "version": "0.1.0",
+      "description": "在 Napcat 中提供 Minecraft 服务器连接功能。",
+      "author": "林小槐",
+      "homepage": "https://github.com/Stapxs/napcat-plungin-minecraft-connector",
+      "downloadUrl": "https://github.com/Stapxs/napcat-plungin-minecraft-connector/releases/download/0.1.0/napcat-plugin-minecraft-connector.zip",
+      "tags": [
+        "工具"
+      ],
+      "minVersion": "4.14.13"
+    },
   ]
 }
