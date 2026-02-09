@@ -349,7 +349,7 @@
       "minVersion": "4.14.0"
     },
     {
-      "id": "napcat-plungin-minecraft-connector",
+      "id": "napcat-plugin-minecraft-connector",
       "name": "Minecraft 服务器连接器",
       "version": "0.1.0",
       "description": "在 Napcat 中提供 Minecraft 服务器连接功能。",
