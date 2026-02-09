@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updateTime": "2026-02-09T05:43:39Z",
+  "updateTime": "2026-02-09T05:51:39Z",
   "plugins": [
     {
       "id": "napcat-plugin-builtin",
@@ -336,11 +336,11 @@
     {
       "id": "napcat-plugin-openclaw",
       "name": "OpenClaw AI Channel",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "将 QQ 变为 OpenClaw AI 助手通道，支持私聊/群聊、斜杠命令、输入状态",
       "author": "CharTyr",
       "homepage": "https://github.com/CharTyr/napcat-plugin-openclaw",
-      "downloadUrl": "https://github.com/CharTyr/napcat-plugin-openclaw/releases/download/v1.1.0/napcat-plugin-openclaw.zip",
+      "downloadUrl": "https://github.com/CharTyr/napcat-plugin-openclaw/releases/download/v1.2.0/napcat-plugin-openclaw.zip",
       "tags": [
         "AI",
         "工具",
