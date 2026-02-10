@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>在 Napcat 插件商店打开</title>
+</head>
+<body style="margin: 0; padding: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif; background: transparent; display: flex; align-items: center; justify-content: center;">
+    <a href="#" id="openButton" style="display: inline-flex; align-items: center; gap: 10px; padding: 14px 28px; background: linear-gradient(135deg, #ec4899 0%, #db2777 50%, #be185d 100%); color: white; border: none; border-radius: 50px; font-size: 16px; font-weight: 600; cursor: pointer; text-decoration: none; box-shadow: 0 4px 14px rgba(236, 72, 153, 0.35); white-space: nowrap;">
+        <span style="width: 22px; height: 22px; display: flex; align-items: center; justify-content: center; background: rgba(255, 255, 255, 0.25); border-radius: 6px; flex-shrink: 0;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="width: 16px; height: 16px; fill: white; display: block;">
+                <path d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3m-2 16H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7h-2v7z"/>
+            </svg>
+        </span>
+        <span>在 Napcat 插件商店打开</span>
+    </a>
+
+    <script>
+        document.getElementById('openButton').addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            // 从 URL 参数获取 pluginId
+            const urlParams = new URLSearchParams(window.location.search);
+            const pluginId = urlParams.get('pluginId') || 'default-plugin';
+            
+            // 构建跳转链接
+            const targetUrl = `index.html?pluginId=${encodeURIComponent(pluginId)}`;
+            
+            // 如果在 iframe 中，在父窗口打开
+            if (window.parent !== window) {
+                window.parent.location.href = targetUrl;
+            } else {
+                window.location.href = targetUrl;
+            }
+        });
+    </script>
+</body>
+</html>

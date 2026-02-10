@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>跳转确认 - Napcat 插件商店</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .background {
+            position: fixed;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -10;
+            overflow: hidden;
+            background: linear-gradient(135deg, #eef2ff 0%, #ffffff 50%, #fce7f3 100%);
+        }
+
+        .blur-circle-1 {
+            position: absolute;
+            top: -10%;
+            left: -10%;
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            background: rgba(192, 132, 252, 0.4);
+            filter: blur(100px);
+        }
+
+        .blur-circle-2 {
+            position: absolute;
+            top: 20%;
+            right: -10%;
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            background: rgba(147, 197, 253, 0.4);
+            filter: blur(90px);
+        }
+
+        .blur-circle-3 {
+            position: absolute;
+            bottom: -10%;
+            left: 20%;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            background: rgba(251, 207, 232, 0.3);
+            filter: blur(110px);
+        }
+
+        .container {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(147, 51, 234, 0.12);
+            max-width: 560px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .blue-border {
+            height: 4px;
+            background: linear-gradient(90deg, #c084fc 0%, #a855f7 100%);
+        }
+
+        .content {
+            padding: 36px 44px 40px;
+        }
+
+        .alert-box {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            padding: 14px 16px;
+            border-radius: 10px;
+            margin-bottom: 28px;
+            font-size: 14px;
+            color: #78350f;
+            border: 1px solid rgba(251, 191, 36, 0.3);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .alert-icon {
+            font-size: 18px;
+            flex-shrink: 0;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 500;
+            color: #1f2937;
+            margin-bottom: 18px;
+            letter-spacing: -0.3px;
+        }
+
+        .description {
+            font-size: 14px;
+            line-height: 1.7;
+            color: #4b5563;
+            margin-bottom: 32px;
+        }
+
+        .divider {
+            border: none;
+            border-top: 1px solid #e5e7eb;
+            margin-bottom: 32px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 28px;
+        }
+
+        .open-button {
+            padding: 12px 32px;
+            background: linear-gradient(135deg, #c084fc 0%, #a855f7 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(168, 85, 247, 0.25);
+        }
+
+        .open-button:hover {
+            background: linear-gradient(135deg, #a855f7 0%, #9333ea 100%);
+            transform: translateY(-1px);
+            box-shadow: 0 6px 16px rgba(168, 85, 247, 0.35);
+        }
+
+        .open-button:active {
+            transform: translateY(0);
+        }
+
+        .instance-url {
+            text-align: center;
+            font-size: 14px;
+            color: #6b7280;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .instance-url strong {
+            color: #374151;
+            font-weight: 600;
+        }
+
+        .url-value {
+            color: #1f2937;
+        }
+
+        .edit-icon {
+            cursor: pointer;
+            color: #9333ea;
+            transition: color 0.2s;
+            font-size: 16px;
+            padding: 4px;
+        }
+
+        .edit-icon:hover {
+            color: #7c3aed;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="blur-circle-1"></div>
+        <div class="blur-circle-2"></div>
+        <div class="blur-circle-3"></div>
+    </div>
+    
+    <div class="container">
+        <div class="blue-border"></div>
+        
+        <div class="content">
+            <div class="alert-box">
+                <span class="alert-icon">⚠️</span>
+                <span>此链接将重定向到 Napcat 插件商店。</span>
+            </div>
+
+            <h1>在您的 Napcat WEBUI 中打开页面？</h1>
+            
+            <p class="description">
+                您已被链接到将在 Napcat 插件商店中打开的页面。
+            </p>
+
+            <hr class="divider" />
+
+            <div class="button-container">
+                <button class="open-button" onclick="openLink()">打开链接</button>
+            </div>
+
+            <div class="instance-url">
+                <span><strong>您的实例 URL:</strong> <span class="url-value" id="url-display"></span></span>
+                <span class="edit-icon" onclick="editUrl()" title="编辑 URL">编辑</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 页面加载时检查localStorage
+        window.addEventListener('DOMContentLoaded', () => {
+            const savedUrl = localStorage.getItem('napcatWebUIUrl');
+            
+            if (!savedUrl) {
+                // 如果没有保存的URL，跳转回配置页面，保留 pluginId 参数
+                const urlParams = new URLSearchParams(window.location.search);
+                const pluginId = urlParams.get('pluginId');
+                let indexUrl = 'index.html';
+                if (pluginId) {
+                    indexUrl += '?pluginId=' + encodeURIComponent(pluginId);
+                }
+                window.location.href = indexUrl;
+                return;
+            }
+            
+            // 显示已保存的URL
+            document.getElementById('url-display').textContent = savedUrl;
+        });
+
+        function openLink() {
+            const savedUrl = localStorage.getItem('napcatWebUIUrl');
+            if (savedUrl) {
+                // 获取 pluginId 参数
+                const urlParams = new URLSearchParams(window.location.search);
+                const pluginId = urlParams.get('pluginId');
+                
+                // 构建完整的跳转 URL
+                let targetUrl = savedUrl;
+                // 移除末尾的斜杠
+                if (targetUrl.endsWith('/')) {
+                    targetUrl = targetUrl.slice(0, -1);
+                }
+                
+                if (pluginId) {
+                    targetUrl += '/webui/plugin_store?pluginId=' + encodeURIComponent(pluginId);
+                } else {
+                    targetUrl += '/webui/plugin_store';
+                }
+                
+                // 直接跳转到目标 URL
+                window.location.href = targetUrl;
+            } else {
+                alert('未找到保存的 URL，请先配置');
+                window.location.href = 'index.html';
+            }
+        }
+
+        function editUrl() {
+            // 跳转到配置页面并传递编辑模式参数，保留 pluginId
+            const urlParams = new URLSearchParams(window.location.search);
+            const pluginId = urlParams.get('pluginId');
+            
+            let indexUrl = 'index.html?edit=true';
+            if (pluginId) {
+                indexUrl += '&pluginId=' + encodeURIComponent(pluginId);
+            }
+            window.location.href = indexUrl;
+        }
+    </script>
+</body>
+</html>
