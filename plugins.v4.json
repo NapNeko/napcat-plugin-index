@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updateTime": "2026-02-10T07:47:55Z",
+  "updateTime": "2026-02-10T09:53:53Z",
   "plugins": [
     {
       "id": "napcat-plugin-builtin",
@@ -372,6 +372,21 @@
       "tags": [
         "群管",
         "工具"
+      ],
+      "minVersion": "4.14.0"
+    },
+    {
+      "id": "napcat-plugin-email",
+      "name": "邮箱服务",
+      "version": "1.0.0",
+      "description": "通过QQ命令发送邮件的NapCat插件，支持SMTP配置，可在QQ群/私聊中直接发送邮件",
+      "author": "MY-Final",
+      "homepage": "https://github.com/MY-Final/napcat-plugin-email",
+      "downloadUrl": "https://github.com/MY-Final/napcat-plugin-email/releases/download/v1.0.0/napcat-plugin-email.zip",
+      "tags": [
+        "工具",
+        "邮件",
+        "SMTP"
       ],
       "minVersion": "4.14.0"
     }
