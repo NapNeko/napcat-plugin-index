@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updateTime": "2026-02-12T07:55:35Z",
+  "updateTime": "2026-02-12T08:17:33Z",
   "plugins": [
     {
       "id": "napcat-plugin-builtin",
@@ -448,11 +448,11 @@
     {
       "id": "napcat-plugin-groupname",
       "name": "群名称插件",
-      "version": "V1.0.0",
+      "version": "1.0.1",
       "description": "NapCat 插件 - 群名称插件",
       "author": "lingran7031",
       "homepage": "https://github.com/lingran7031/napcat-plugin-groupname",
-      "downloadUrl": "https://github.com/lingran7031/napcat-plugin-groupname/releases/download/V1.0.0/napcat-plugin-groupname.zip",
+      "downloadUrl": "https://github.com/lingran7031/napcat-plugin-groupname/releases/download/v1.0.1/napcat-plugin-groupname.zip",
       "tags": [
         "工具"
       ],
