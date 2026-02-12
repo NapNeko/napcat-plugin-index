@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updateTime": "2026-02-11T17:14:33Z",
+  "updateTime": "2026-02-12T02:22:01Z",
   "plugins": [
     {
       "id": "napcat-plugin-builtin",
@@ -46,11 +46,11 @@
     {
       "id": "napcat-plugin-aicat",
       "name": "AI Cat",
-      "version": "1.3.1",
+      "version": "1.3.2",
       "description": "智能AI猫娘助手插件，AI 对话帮助你群管理、自定义指令、定时任务等功能",
       "author": "冷曦",
       "homepage": "https://github.com/lengxi-root/napcat-plugin-aicat",
-      "downloadUrl": "https://github.com/lengxi-root/napcat-plugin-aicat/releases/download/v1.3.1/napcat-plugin-aicat.zip",
+      "downloadUrl": "https://github.com/lengxi-root/napcat-plugin-aicat/releases/download/v1.3.2/napcat-plugin-aicat.zip",
       "tags": [
         "AI",
         "娱乐"
