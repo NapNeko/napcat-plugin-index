@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updateTime": "2026-02-12T16:03:08Z",
+  "updateTime": "2026-02-12T16:20:04Z",
   "plugins": [
     {
       "id": "napcat-plugin-builtin",
@@ -477,7 +477,7 @@
       "name": "小说下载器",
       "version": "1.0.0",
       "description": "支持七猫小说搜索和下载",
-      "author": "Novel Downloader Team",
+      "author": "LANHU199",
       "homepage": "https://github.com/wuxiang999/napcat-plugin-novel-downloader",
       "downloadUrl": "https://github.com/wuxiang999/napcat-plugin-novel-downloader/releases/download/v1.0.0/napcat-plugin-novel-downloader.zip",
       "tags": [
