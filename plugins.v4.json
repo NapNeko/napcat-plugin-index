@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updateTime": "2026-02-13T14:18:17Z",
+  "updateTime": "2026-02-13T17:18:38Z",
   "plugins": [
     {
       "id": "napcat-plugin-builtin",
@@ -543,11 +543,11 @@
     {
       "id": "napcat-plugin-mqtt",
       "name": "mqtt插件",
-      "version": "1.0.7",
+      "version": "1.0.2",
       "description": "NapCat连接MQTT服务器的插件，可以将QQ消息转发到MQTT服务器，或者从MQTT服务器接收消息并发送到QQ。",
       "author": "Chuyu",
       "homepage": "https://github.com/Chuyu2020/napcat-plugin-mqtt",
-      "downloadUrl": "https://github.com/Chuyu2020/napcat-plugin-mqtt/releases/download/v1.0.7/napcat-plugin-mqtt.zip",
+      "downloadUrl": "https://github.com/Chuyu2020/napcat-plugin-mqtt/releases/download/v1.0.2/napcat-plugin-mqtt.zip",
       "tags": [
         "工具"
       ],
