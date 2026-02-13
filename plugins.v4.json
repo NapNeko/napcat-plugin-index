@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updateTime": "2026-02-13T02:15:58Z",
+  "updateTime": "2026-02-13T02:27:01Z",
   "plugins": [
     {
       "id": "napcat-plugin-builtin",
@@ -434,11 +434,11 @@
     {
       "id": "napcat-plugin-aichat",
       "name": "AI 聊天插件",
-      "version": "1.4.1",
+      "version": "1.5.0",
       "description": "NapCat 插件 - AI 聊天插件",
       "author": "LinmingXHL",
       "homepage": "https://github.com/Linming-XHL/napcat-plugin-aichat",
-      "downloadUrl": "https://github.com/Linming-XHL/napcat-plugin-aichat/releases/download/v1.4.1/napcat-plugin-aichat.zip",
+      "downloadUrl": "https://github.com/Linming-XHL/napcat-plugin-aichat/releases/download/v1.5.0/napcat-plugin-aichat.zip",
       "tags": [
         "工具",
         "AI"
