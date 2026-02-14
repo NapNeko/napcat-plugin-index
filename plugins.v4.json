@@ -556,11 +556,11 @@
     {
       "id": "napcat-plugin-profile",
       "name": "用户资料卡片",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "description": "生成精美的 QQ 用户资料卡片，支持自定义 HTML 模板",
       "author": "MY-Final",
       "homepage": "https://github.com/MY-Final/napcat-plugin-profile",
-      "downloadUrl": "https://github.com/MY-Final/napcat-plugin-profile/releases/download/v1.0.0/napcat-plugin-profile.zip",
+      "downloadUrl": "https://github.com/MY-Final/napcat-plugin-profile/releases/download/v1.0.2/napcat-plugin-profile.zip",
       "tags": [
         "工具",
         "娱乐"
