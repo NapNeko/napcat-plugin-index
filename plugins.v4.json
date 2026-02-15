@@ -584,11 +584,11 @@
     {
       "id": "napcat-plugin-60s-api",
       "name": "60s API",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "description": "60s API 聚合插件 - 聚合多种实用API，包括热点资讯、天气、榜单查询等功能",
       "author": "朝歌",
       "homepage": "https://github.com/chaoge/napcat-plugin-60s-api",
-      "downloadUrl": "https://github.com/Sakurakilove/napcat-plugin-60s-api/releases/download/v1.0.3/napcat-plugin-60s-api.zip",
+      "downloadUrl": "https://github.com/Sakurakilove/napcat-plugin-60s-api/releases/download/v1.0.4/napcat-plugin-60s-api.zip",
       "tags": [
         "工具",
         "资讯",
