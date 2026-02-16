@@ -595,6 +595,20 @@
         "查询"
       ],
       "minVersion": "4.14.0"
+    },
+    {
+      "id": "napcat-plugin-grabredbag",
+      "name": "自动抢红包",
+      "version": "1.0.1",
+      "description": "（需要授权）自动抢红包插件：监听群/私聊红包消息，自动领取，支持口令红包、黑白名单、随机延迟、防检测等功能",
+      "author": "冷曦",
+      "homepage": "https://github.com/lengxi-root/napcat-plugin-grabredbag",
+      "downloadUrl": "https://github.com/lengxi-root/napcat-plugin-grabredbag/releases/download/v1.0.1/napcat-plugin-grabredbag.zip",
+      "tags": [
+        "工具",
+        "红包"
+      ],
+      "minVersion": "4.14.0"
     }
   ]
 }
