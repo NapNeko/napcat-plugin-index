@@ -323,11 +323,11 @@
     {
       "id": "napcat-plugin-epic-free",
       "name": "Epic喜加一",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "Epic Games Store 每周免费游戏订阅推送插件",
       "author": "AQiaoYo",
       "homepage": "https://github.com/AQiaoYo/napcat-plugin-epic-free",
-      "downloadUrl": "https://github.com/AQiaoYo/napcat-plugin-epic-free/releases/download/v1.0.2/napcat-plugin-epic-free.zip",
+      "downloadUrl": "https://github.com/AQiaoYo/napcat-plugin-epic-free/releases/download/v1.0.3/napcat-plugin-epic-free.zip",
       "tags": [
         "订阅",
         "游戏"
