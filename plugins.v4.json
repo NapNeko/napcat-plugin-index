@@ -60,11 +60,11 @@
     {
       "id": "napcat-plugin-play",
       "name": "meme娱乐插件",
-      "version": "1.3.1",
+      "version": "1.3.2",
       "description": "娱乐插件，meme表情包，点歌，哈基米制作。",
       "author": "冷曦",
       "homepage": "https://github.com/lengxi-root/napcat-plugin-play",
-      "downloadUrl": "https://github.com/lengxi-root/napcat-plugin-play/releases/download/v1.3.1/napcat-plugin-play.zip",
+      "downloadUrl": "https://github.com/lengxi-root/napcat-plugin-play/releases/download/v1.3.2/napcat-plugin-play.zip",
       "tags": [
         "娱乐",
         "AI"
