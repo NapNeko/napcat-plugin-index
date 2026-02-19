@@ -421,11 +421,11 @@
     {
       "id": "napcat-plugin-gscore-adapter",
       "name": "GScore 适配器",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "description": "一个适用于NapCat的GScore适配器",
       "author": "MortalCat",
       "homepage": "https://github.com/xiowo/napcat-plugin-gscore-adapter",
-      "downloadUrl": "https://github.com/xiowo/napcat-plugin-gscore-adapter/releases/download/v1.1.0/napcat-plugin-gscore-adapter.zip",
+      "downloadUrl": "https://github.com/xiowo/napcat-plugin-gscore-adapter/releases/download/v1.1.1/napcat-plugin-gscore-adapter.zip",
       "tags": [
         "工具"
       ],
