@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updateTime": "2026-02-16T09:58:06Z",
+  "updateTime": "2026-02-19T05:58:25Z",
   "plugins": [
     {
       "id": "napcat-plugin-builtin",
@@ -522,6 +522,19 @@
       "author": "Nacho",
       "homepage": "https://github.com/KyuharuTE/napcat-plugin-auto-lucky-bag",
       "downloadUrl": "https://github.com/KyuharuTE/napcat-plugin-auto-lucky-bag/releases/download/v1.0.0/napcat-plugin-auto-lucky-bag.zip",
+      "tags": [
+        "工具"
+      ],
+      "minVersion": "4.14.0"
+    },
+    {
+      "id": "napcat-plugin-zanwo",
+      "name": "赞我",
+      "version": "1.0.0",
+      "description": "一键点赞插件，支持 .zanwo 和 .zan 命令",
+      "author": "ntkrnl64",
+      "homepage": "https://github.com/ntkrnl64/napcat-plugin-zanwo",
+      "downloadUrl": "https://github.com/ntkrnl64/napcat-plugin-zanwo/releases/download/v1.0.0/napcat-plugin-zanwo.zip",
       "tags": [
         "工具"
       ],
