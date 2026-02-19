@@ -200,11 +200,11 @@
     {
       "id": "napcat-plugin-delta-force",
       "name": "三角洲行动",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "description": "三角洲行动游戏数据查询插件 - 基于 NapCat 框架",
       "author": "冷曦",
       "homepage": "https://github.com/Entropy-Increase-Team/napcat-plugin-delta-force",
-      "downloadUrl": "https://github.com/Entropy-Increase-Team/napcat-plugin-delta-force/releases/download/v1.1.0/napcat-plugin-delta-force.zip",
+      "downloadUrl": "https://github.com/Entropy-Increase-Team/napcat-plugin-delta-force/releases/download/v1.1.1/napcat-plugin-delta-force.zip",
       "tags": [
         "游戏",
         "工具"
