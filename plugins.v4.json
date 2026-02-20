@@ -312,11 +312,11 @@
     {
       "id": "napcat-plugin-auto-to-like",
       "name": "自动回赞",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "description": "这是一个自动回赞插件",
       "author": "Chace",
       "homepage": "https://github.com/ChaceQC/napcat-plugin-auto-to-like",
-      "downloadUrl": "https://github.com/ChaceQC/napcat-plugin-auto-to-like/releases/download/v1.0.0/napcat-plugin-auto-to-like.zip",
+      "downloadUrl": "https://github.com/ChaceQC/napcat-plugin-auto-to-like/releases/download/v1.0.2/napcat-plugin-auto-to-like.zip",
       "tags": [
         "娱乐"
       ],
