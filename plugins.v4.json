@@ -526,6 +526,20 @@
         "工具"
       ],
       "minVersion": "4.14.0"
+    },
+    {
+      "id": "napcat-plugin-pixiv",
+      "name": "Pixiv 图片",
+      "version": "1.0.0",
+      "description": "NapCat Pixiv 插件 - 搜索与推荐 Pixiv 插画，支持合并转发",
+      "author": "ChaceQC",
+      "homepage": "https://github.com/ChaceQC/napcat-plugin-pixiv",
+      "downloadUrl": "https://github.com/ChaceQC/napcat-plugin-pixiv/releases/download/v1.0.0/napcat-plugin-pixiv.zip",
+      "tags": [
+        "图片",
+        "Pixiv"
+      ],
+      "minVersion": "4.14.0"
     }
   ]
 }
