@@ -55,61 +55,6 @@
         "工具"
       ],
       "minVersion": "4.14.13"
-    },
-    {
-      "id": "napcat-plugin-pixiv",
-      "name": "Pixiv 图片",
-      "version": "1.0.9",
-      "description": "NapCat Pixiv 插件 - 搜索与推荐 Pixiv 插画，支持合并转发",
-      "author": "ChaceQC",
-      "homepage": "https://github.com/ChaceQC/napcat-plugin-pixiv",
-      "downloadUrl": "https://github.com/ChaceQC/napcat-plugin-pixiv/releases/download/v1.0.9/napcat-plugin-pixiv.zip",
-      "tags": [
-        "图片",
-        "Pixiv"
-      ],
-      "minVersion": "4.14.0"
-    },
-    {
-      "id": "napcat-plugin-gscore-adapter",
-      "name": "GScore 适配器",
-      "version": "1.1.4",
-      "description": "一个适用于NapCat的GScore适配器",
-      "author": "MortalCat",
-      "homepage": "https://github.com/xiowo/napcat-plugin-gscore-adapter",
-      "downloadUrl": "https://github.com/xiowo/napcat-plugin-gscore-adapter/releases/download/v1.1.4/napcat-plugin-gscore-adapter.zip",
-      "tags": [
-        "工具"
-      ],
-      "minVersion": "4.14.0"
-    },
-    {
-      "id": "napcat-plugin-rss",
-      "name": "RSS 订阅推送",
-      "version": "1.0.6",
-      "description": "NapCat RSS 订阅推送插件 - 定时检测 RSS 更新并推送到群",
-      "author": "MY-Final",
-      "homepage": "https://github.com/MY-Final/napcat-plugin-rss",
-      "downloadUrl": "https://github.com/MY-Final/napcat-plugin-rss/releases/download/v1.0.6/napcat-plugin-rss.zip",
-      "tags": [
-        "工具",
-        "RSS"
-      ],
-      "minVersion": "4.14.0"
-    },
-    {
-      "id": "napcat-plugin-ai-tag",
-      "name": "随机图片Tag",
-      "version": "1.0.5",
-      "description": "随机绘画tag生成，可自定义tag库和跑图前缀",
-      "author": "Tavre",
-      "homepage": "https://github.com/Tavre/napcat-plugin-ai-tag",
-      "downloadUrl": "https://github.com/Tavre/napcat-plugin-ai-tag/releases/download/v1.0.5/napcat-plugin-ai-tag.zip",
-      "tags": [
-        "AI",
-        "图片"
-      ],
-      "minVersion": "4.14.0"
     }
   ]
 }
