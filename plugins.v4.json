@@ -530,11 +530,11 @@
     {
       "id": "napcat-plugin-pixiv",
       "name": "Pixiv 图片",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "description": "NapCat Pixiv 插件 - 搜索与推荐 Pixiv 插画，支持合并转发",
       "author": "ChaceQC",
       "homepage": "https://github.com/ChaceQC/napcat-plugin-pixiv",
-      "downloadUrl": "https://github.com/ChaceQC/napcat-plugin-pixiv/releases/download/v1.0.7/napcat-plugin-pixiv.zip",
+      "downloadUrl": "https://github.com/ChaceQC/napcat-plugin-pixiv/releases/download/v1.0.8/napcat-plugin-pixiv.zip",
       "tags": [
         "图片",
         "Pixiv"
