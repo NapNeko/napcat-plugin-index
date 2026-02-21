@@ -86,11 +86,11 @@
     {
       "id": "napcat-plugin-rss",
       "name": "RSS 订阅推送",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "description": "NapCat RSS 订阅推送插件 - 定时检测 RSS 更新并推送到群",
-      "author": "Your Name",
+      "author": "MY-Final",
       "homepage": "https://github.com/MY-Final/napcat-plugin-rss",
-      "downloadUrl": "https://github.com/MY-Final/napcat-plugin-rss/releases/download/v1.0.4/napcat-plugin-rss.zip",
+      "downloadUrl": "https://github.com/MY-Final/napcat-plugin-rss/releases/download/v1.0.5/napcat-plugin-rss.zip",
       "tags": [
         "工具",
         "RSS"
