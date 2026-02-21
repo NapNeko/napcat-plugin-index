@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updateTime": "2026-02-21T12:24:59Z",
+  "updateTime": "2026-02-21T14:57:37Z",
   "plugins": [
     {
       "id": "napcat-plugin-builtin",
@@ -94,6 +94,20 @@
       "tags": [
         "工具",
         "RSS"
+      ],
+      "minVersion": "4.14.0"
+    },
+    {
+      "id": "napcat-plugin-tsai",
+      "name": "AI绘画",
+      "version": "1.0.4",
+      "description": "TS-AI绘画 绘画插件",
+      "author": "Tavre",
+      "homepage": "https://github.com/Tavre/napcat-plugin-tsai",
+      "downloadUrl": "https://github.com/Tavre/napcat-plugin-tsai/releases/download/v1.0.4/napcat-plugin-tsai.zip",
+      "tags": [
+        "AI",
+        "图片"
       ],
       "minVersion": "4.14.0"
     }
