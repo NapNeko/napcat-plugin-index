@@ -379,11 +379,11 @@
     {
       "id": "napcat-plugin-github-sub",
       "name": "GitHub 订阅",
-      "version": "1.0.8",
+      "version": "1.0.9",
       "description": "GitHub 仓库订阅推送插件，监控 Commits / Issues / Pull Requests 并渲染图片推送",
       "author": "冷曦",
       "homepage": "https://github.com/lengxi-root/napcat-plugin-github-sub",
-      "downloadUrl": "https://github.com/lengxi-root/napcat-plugin-github-sub/releases/download/v1.0.8/napcat-plugin-github-sub.zip",
+      "downloadUrl": "https://github.com/lengxi-root/napcat-plugin-github-sub/releases/download/v1.0.9/napcat-plugin-github-sub.zip",
       "tags": [
         "工具",
         "订阅"
