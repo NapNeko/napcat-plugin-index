@@ -55,6 +55,20 @@
         "工具"
       ],
       "minVersion": "4.14.13"
+    },
+    {
+      "id": "napcat-plugin-brushing",
+      "name": "官机互刷插件",
+      "version": "1.0.0",
+      "description": "官机互刷DAU插件，自动与在线官机互刷提升DAU",
+      "author": "蛙蛙",
+      "homepage": "https://github.com/wozhendefuleaaa/napcat-plugin-brushing",
+      "downloadUrl": "https://github.com/wozhendefuleaaa/napcat-plugin-brushing/releases/download/v1.0.0/napcat-plugin-brushing.zip",
+      "tags": [
+        "工具",
+        "自动化"
+      ],
+      "minVersion": "4.14.0"
     }
   ]
 }
