@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updateTime": "2026-02-21T17:10:00Z",
+  "updateTime": "2026-02-21T17:38:42.150Z",
   "plugins": [
     {
       "id": "napcat-plugin-builtin",
@@ -10,7 +10,10 @@
       "author": "NapNeko",
       "homepage": "https://napcat.napneko.icu",
       "downloadUrl": "https://github.com/NapNeko/napcat-plugin-index/releases/download/v1.0.0/napcat-plugin-builtin.zip",
-      "tags": ["官方", "工具"],
+      "tags": [
+        "官方",
+        "工具"
+      ],
       "minVersion": "4.14.0"
     },
     {
@@ -21,7 +24,10 @@
       "author": "NapNeko",
       "homepage": "https://napcat.napneko.icu",
       "downloadUrl": "https://github.com/NapNeko/napcat-plugin-index/releases/download/v1.0.0/napcat-plugin-cleaner.zip",
-      "tags": ["官方", "工具"],
+      "tags": [
+        "官方",
+        "工具"
+      ],
       "minVersion": "4.14.0"
     },
     {
@@ -32,7 +38,9 @@
       "author": "NapNeko",
       "homepage": "https://github.com/NapNeko/napcat-plugin-debug",
       "downloadUrl": "https://github.com/NapNeko/napcat-plugin-debug/releases/download/v1.0.8/napcat-plugin-debug.zip",
-      "tags": ["工具"],
+      "tags": [
+        "工具"
+      ],
       "minVersion": "4.14.0"
     },
     {
@@ -43,18 +51,23 @@
       "author": "林小槐",
       "homepage": "https://github.com/Stapxs/Stapxs-QQ-Lite-2.0",
       "downloadUrl": "https://github.com/Stapxs/Stapxs-QQ-Lite-2.0/releases/download/v3.3.3/napcat-plugin-ssqq.zip",
-      "tags": ["工具"],
+      "tags": [
+        "工具"
+      ],
       "minVersion": "4.14.13"
     },
     {
       "id": "napcat-plugin-brushing",
       "name": "官机互刷插件",
-      "version": "1.0.1",
+      "version": "v1.0.0",
       "description": "官机互刷DAU插件，自动与在线官机互刷提升DAU",
       "author": "蛙蛙",
       "homepage": "https://github.com/wozhendefuleaaa/napcat-plugin-brushing",
-      "downloadUrl": "https://github.com/wozhendefuleaaa/napcat-plugin-brushing/releases/download/v1.0.1/napcat-plugin-brushing.zip",
-      "tags": ["工具", "自动化"],
+      "downloadUrl": "https://github.com/wozhendefuleaaa/napcat-plugin-brushing/releases/download/v1.0.0/napcat-plugin-brushing.zip",
+      "tags": [
+        "工具",
+        "自动化"
+      ],
       "minVersion": "4.14.0"
     }
   ]
