@@ -55,6 +55,19 @@
         "工具"
       ],
       "minVersion": "4.14.13"
+    },
+    {
+      "id": "napcat-plugin-bilibili-notifier",
+      "name": "B站直播动态推送插件",
+      "version": "1.0.0",
+      "description": "将B站直播动态投稿信息推送至QQ群",
+      "author": "妘皋落",
+      "homepage": "https://github.com/YunGaoluo/napcat-plugin-bilibili-notifier",
+      "downloadUrl": "https://github.com/YunGaoluo/napcat-plugin-bilibili-notifier/releases/download/v1.0.0/napcat-plugin-bilibili-notifier.zip",
+      "tags": [
+        "工具"
+      ],
+      "minVersion": "4.14.0"
     }
   ]
 }
