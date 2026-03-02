@@ -55,6 +55,20 @@
         "工具"
       ],
       "minVersion": "4.14.13"
+    },
+    {
+      "id": "napcat-plugin-douyin",
+      "name": "抖音视频解析",
+      "version": "1.1.0",
+      "description": "解析分享的抖音视频链接，获取视频信息和原视频并发送到群聊中。",
+      "author": "BlackCyan",
+      "homepage": "https://github.com/Black-Cyan/napcat-plugin-douyin",
+      "downloadUrl": "https://github.com/Black-Cyan/napcat-plugin-douyin/releases/download/v1.1.0/napcat-plugin-douyin.zip",
+      "tags": [
+        "工具",
+        "娱乐"
+      ],
+      "minVersion": "4.14.0"
     }
   ]
 }
