@@ -55,6 +55,20 @@
         "工具"
       ],
       "minVersion": "4.14.13"
+    },
+    {
+      "id": "napcat-plugin-simple-like",
+      "name": "赞我",
+      "version": "1.0.0",
+      "description": "发送'赞我'即可自动点赞10次",
+      "author": "WDNMD",
+      "homepage": "https://github.com/Qzy327422/napcat-plugin-simple-like",
+      "downloadUrl": "https://github.com/Qzy327422/napcat-plugin-simple-like/releases/download/v1.0.0/napcat-plugin-simple-like.zip",
+      "tags": [
+        "实用工具",
+        "互动"
+      ],
+      "minVersion": "4.14.0"
     }
   ]
 }
