@@ -55,6 +55,21 @@
         "工具"
       ],
       "minVersion": "4.14.13"
+    },
+    {
+      "id": "napcat-plugin-doubao",
+      "name": "豆包AI插件",
+      "version": "1.4.2",
+      "description": "豆包AI聊天插件，支持智能对话,各种对话",
+      "author": "Sameki",
+      "homepage": "https://github.com/Saimosameki/napcat-plugin-doubao",
+      "downloadUrl": "https://github.com/Saimosameki/napcat-plugin-doubao/releases/download/v1.4.2/napcat-plugin-doubao.zip",
+      "tags": [
+        "工具",
+        "娱乐",
+        "AI"
+      ],
+      "minVersion": "4.14.0"
     }
   ]
 }
