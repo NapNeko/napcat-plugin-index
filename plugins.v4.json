@@ -55,6 +55,20 @@
         "工具"
       ],
       "minVersion": "4.14.13"
+    },
+    {
+      "id": "napcat-plugin-mirai-api-http",
+      "name": "Mirai API HTTP",
+      "version": "0.1.1",
+      "description": "NapCat 插件：实现 mirai-api-http 协议兼容层，支持 Ariadne 等客户端连接",
+      "author": "linnian",
+      "homepage": "https://github.com/Sibuxiangx/napcat-plugin-mirai-api-http",
+      "downloadUrl": "https://github.com/Sibuxiangx/napcat-plugin-mirai-api-http/releases/download/v0.1.1/napcat-plugin-mirai-api-http.zip",
+      "tags": [
+        "协议",
+        "工具"
+      ],
+      "minVersion": "4.14.0"
     }
   ]
 }
