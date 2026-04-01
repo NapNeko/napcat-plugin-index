@@ -46,11 +46,11 @@
     {
       "id": "napcat-plugin-ssqq",
       "name": "Stapxs QQ Lite",
-      "version": "3.3.6-2",
+      "version": "3.3.7-3",
       "description": "一个兼容 OneBot 协议的第三方 QQ 客户端！",
       "author": "林小槐",
       "homepage": "https://github.com/Stapxs/Stapxs-QQ-Lite-2.0",
-      "downloadUrl": "https://github.com/Stapxs/Stapxs-QQ-Lite-2.0/releases/download/v3.3.6/napcat-plugin-ssqq.zip",
+      "downloadUrl": "https://github.com/Stapxs/Stapxs-QQ-Lite-2.0/releases/download/v3.3.7/napcat-plugin-ssqq.zip",
       "tags": [
         "工具"
       ],
