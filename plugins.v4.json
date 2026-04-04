@@ -55,6 +55,20 @@
         "工具"
       ],
       "minVersion": "4.14.13"
+    },
+    {
+      "id": "napcat-plugin-auto-join-group",
+      "name": "napcat-plugin-auto-join-group",
+      "version": "1.0.0",
+      "description": "自动同意被邀请进群",
+      "author": "WDNMD",
+      "homepage": "https://github.com/Qzy327422/napcat-plugin-auto-join-group",
+      "downloadUrl": "https://github.com/Qzy327422/napcat-plugin-auto-join-group/releases/download/v1.0.0/napcat-plugin-auto-join-group.zip",
+      "tags": [
+        "群管理",
+        "自动化"
+      ],
+      "minVersion": "4.14.0"
     }
   ]
 }
