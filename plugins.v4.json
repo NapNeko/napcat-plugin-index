@@ -55,6 +55,20 @@
         "工具"
       ],
       "minVersion": "4.14.13"
+    },
+    {
+      "id": "napcat-plugin-icesun-push-uptime-kuma",
+      "name": "IceSunNapCat被动推送UptimeKuma插件",
+      "version": "1.0.0",
+      "description": "支持定时发送 Uptime Kuma push 请求，包含当前 NapCat 状态",
+      "author": "GodMeowIceSun(icesun@icesun.cn)",
+      "homepage": "https://github.com/GodMeowIceSun/napcat-plugin-icesun-push-uptime-kuma",
+      "downloadUrl": "https://github.com/GodMeowIceSun/napcat-plugin-icesun-push-uptime-kuma/releases/download/v1.0.0/napcat-plugin-icesun-push-uptime-kuma.zip",
+      "tags": [
+        "工具",
+        "监控"
+      ],
+      "minVersion": "4.14.0"
     }
   ]
 }
