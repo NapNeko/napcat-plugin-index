@@ -55,6 +55,20 @@
         "工具"
       ],
       "minVersion": "4.14.13"
+    },
+    {
+      "id": "napcat-plugin-offline-notification",
+      "name": "掉线通知插件",
+      "version": "1.0.0",
+      "description": "NapCatQQ 掉线通知插件，当机器人掉线时自动通过 Server 酱发送微信通知",
+      "author": "Forever灬笨",
+      "homepage": "https://github.com/KeepStupidForever/napcat-plugin-offline-notification",
+      "downloadUrl": "https://github.com/KeepStupidForever/napcat-plugin-offline-notification/releases/download/v1.0.0/napcat-plugin-offline-notification.zip",
+      "tags": [
+        "工具",
+        "通知"
+      ],
+      "minVersion": "4.14.0"
     }
   ]
 }
