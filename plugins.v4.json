@@ -55,6 +55,20 @@
         "工具"
       ],
       "minVersion": "4.14.13"
+    },
+    {
+      "id": "napcat-plugin-ff14-market-house",
+      "name": "ff14-market-house",
+      "version": "0.1.1",
+      "description": "FF14 查价与查房插件",
+      "author": "sanxi",
+      "homepage": "https://github.com/sanxi33/napcat-plugin-ff14-market-house",
+      "downloadUrl": "https://github.com/sanxi33/napcat-plugin-ff14-market-house/releases/download/v0.1.1/napcat-plugin-ff14-market-house.zip",
+      "tags": [
+        "游戏",
+        "工具"
+      ],
+      "minVersion": "4.14.0"
     }
   ]
 }
