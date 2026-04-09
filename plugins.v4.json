@@ -55,6 +55,20 @@
         "工具"
       ],
       "minVersion": "4.14.13"
+    },
+    {
+      "id": "napcat-plugin-weibo-push",
+      "name": "weibo-push",
+      "version": "0.1.0",
+      "description": "微博查询与定时推送插件",
+      "author": "sanxi",
+      "homepage": "https://github.com/sanxi33/napcat-plugin-weibo-push",
+      "downloadUrl": "https://github.com/sanxi33/napcat-plugin-weibo-push/releases/download/v0.1.0/napcat-plugin-weibo-push.zip",
+      "tags": [
+        "通知",
+        "社交"
+      ],
+      "minVersion": "4.14.0"
     }
   ]
 }
