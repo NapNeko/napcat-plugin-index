@@ -55,6 +55,20 @@
         "工具"
       ],
       "minVersion": "4.14.13"
+    },
+    {
+      "id": "napcat-plugin-fun-pack",
+      "name": "fun-pack",
+      "version": "0.1.0",
+      "description": "随机二选一、今天吃什么、今天喝什么、龙图、对吗和骰子等娱乐功能插件",
+      "author": "sanxi",
+      "homepage": "https://github.com/sanxi33/napcat-plugin-fun-pack",
+      "downloadUrl": "https://github.com/sanxi33/napcat-plugin-fun-pack/releases/download/v0.1.0/napcat-plugin-fun-pack.zip",
+      "tags": [
+        "娱乐",
+        "工具"
+      ],
+      "minVersion": "4.14.0"
     }
   ]
 }
