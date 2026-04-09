@@ -55,6 +55,20 @@
         "工具"
       ],
       "minVersion": "4.14.13"
+    },
+    {
+      "id": "napcat-plugin-music-share",
+      "name": "music-share",
+      "version": "0.1.1",
+      "description": "网易云点歌与歌词查询插件",
+      "author": "sanxi",
+      "homepage": "https://github.com/sanxi33/napcat-plugin-music-share",
+      "downloadUrl": "https://github.com/sanxi33/napcat-plugin-music-share/releases/download/v0.1.1/napcat-plugin-music-share.zip",
+      "tags": [
+        "娱乐",
+        "工具"
+      ],
+      "minVersion": "4.14.0"
     }
   ]
 }
