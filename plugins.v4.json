@@ -55,6 +55,20 @@
         "工具"
       ],
       "minVersion": "4.14.13"
+    },
+    {
+      "id": "napcat-plugin-ai-chat-template",
+      "name": "AI 群聊模板",
+      "version": "0.1.3",
+      "description": "NapCat 通用 AI 群聊 / 私聊模板插件",
+      "author": "sanxi",
+      "homepage": "https://github.com/sanxi33/napcat-plugin-ai-chat-template",
+      "downloadUrl": "https://github.com/sanxi33/napcat-plugin-ai-chat-template/releases/download/v0.1.3/napcat-plugin-ai-chat-template.zip",
+      "tags": [
+        "工具",
+        "AI"
+      ],
+      "minVersion": "4.14.0"
     }
   ]
 }
