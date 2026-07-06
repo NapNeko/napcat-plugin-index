@@ -1,0 +1,89 @@
+name: Build and Release
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Release version, for example 1.0.2 or v1.0.2"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  build-release:
+    name: Build and publish release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Read metadata
+        id: meta
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            VERSION_INPUT="${{ inputs.version }}"
+          else
+            VERSION_INPUT="${GITHUB_REF_NAME}"
+          fi
+
+          CLEAN_VERSION="${VERSION_INPUT#v}"
+          TAG_NAME="v${CLEAN_VERSION}"
+          PLUGIN_ID="$(node -p "require('./package.json').name")"
+          PKG_VERSION="$(node -p "require('./package.json').version")"
+
+          if [ "${PKG_VERSION}" != "${CLEAN_VERSION}" ]; then
+            echo "::warning::package.json version (${PKG_VERSION}) does not match release version (${CLEAN_VERSION})."
+          fi
+
+          echo "plugin_id=${PLUGIN_ID}" >> "$GITHUB_OUTPUT"
+          echo "clean_version=${CLEAN_VERSION}" >> "$GITHUB_OUTPUT"
+          echo "tag_name=${TAG_NAME}" >> "$GITHUB_OUTPUT"
+          echo "asset_name=${PLUGIN_ID}.zip" >> "$GITHUB_OUTPUT"
+
+      - name: Validate plugin
+        run: |
+          node --check index.mjs
+          node -e "JSON.parse(require('fs').readFileSync('package.json', 'utf8')); console.log('package.json OK')"
+
+      - name: Build zip
+        shell: bash
+        run: |
+          PLUGIN_ID="${{ steps.meta.outputs.plugin_id }}"
+          rm -rf dist "${PLUGIN_ID}.zip"
+          mkdir -p dist
+
+          cp package.json index.mjs dist/
+          [ -f icon.png ] && cp icon.png dist/
+          [ -f icon.svg ] && cp icon.svg dist/
+
+          cd dist
+          zip -r "../${PLUGIN_ID}.zip" .
+          cd ..
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.meta.outputs.plugin_id }}
+          path: ${{ steps.meta.outputs.asset_name }}
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.meta.outputs.tag_name }}
+          target_commitish: ${{ github.sha }}
+          name: ${{ steps.meta.outputs.plugin_id }} ${{ steps.meta.outputs.tag_name }}
+          files: ${{ steps.meta.outputs.asset_name }}
+          generate_release_notes: true
+          make_latest: true

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="GLM-4.7-Flash NapCat plugin icon">
+  <defs>
+    <linearGradient id="bg" x1="72" y1="40" x2="448" y2="472" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="0.52" stop-color="#113b42"/>
+      <stop offset="1" stop-color="#0b111c"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="122" y1="126" x2="390" y2="376" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#43e7d4"/>
+      <stop offset="1" stop-color="#2d8cff"/>
+    </linearGradient>
+    <linearGradient id="bolt" x1="272" y1="116" x2="226" y2="338" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe66d"/>
+      <stop offset="1" stop-color="#ff9f1c"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="400" cy="112" r="78" fill="#43e7d4" opacity="0.12"/>
+  <circle cx="98" cy="414" r="96" fill="#ffbf45" opacity="0.10"/>
+
+  <path
+    d="M136 139h202c40 0 72 32 72 72v68c0 40-32 72-72 72h-84l-70 52v-52h-48c-40 0-72-32-72-72v-68c0-40 32-72 72-72z"
+    fill="#07111f"
+    opacity="0.74"
+    filter="url(#softShadow)"
+  />
+  <path
+    d="M144 127h202c40 0 72 32 72 72v68c0 40-32 72-72 72h-86l-72 54v-54h-44c-40 0-72-32-72-72v-68c0-40 32-72 72-72z"
+    fill="none"
+    stroke="url(#panel)"
+    stroke-width="18"
+    stroke-linejoin="round"
+  />
+
+  <path
+    d="M285 101l-78 142h63l-39 143 98-175h-66l22-110z"
+    fill="url(#bolt)"
+    stroke="#fff4b8"
+    stroke-opacity="0.55"
+    stroke-width="8"
+    stroke-linejoin="round"
+  />
+
+  <text
+    x="256"
+    y="301"
+    text-anchor="middle"
+    font-family="Inter, Segoe UI, Arial, sans-serif"
+    font-size="86"
+    font-weight="800"
+    letter-spacing="0"
+    fill="#f8fafc"
+  >GLM</text>
+  <text
+    x="256"
+    y="346"
+    text-anchor="middle"
+    font-family="Inter, Segoe UI, Arial, sans-serif"
+    font-size="34"
+    font-weight="700"
+    letter-spacing="0"
+    fill="#a7f3d0"
+  >4.7 FLASH</text>
+</svg>

@@ -1,0 +1,27 @@
+{
+  "name": "napcat-plugin-glm-4-7-flash",
+  "plugin": "GLM-4.7-Flash 聊天",
+  "version": "1.0.8",
+  "type": "module",
+  "main": "index.mjs",
+  "icon": "icon.png",
+  "description": "对接 GLM-4.7-Flash 的 NapCatQQ 聊天插件，仅在 @目标 QQ 或回复目标 QQ 消息时触发。",
+  "author": "Codex",
+  "license": "MIT",
+  "keywords": [
+    "napcat",
+    "plugin",
+    "glm",
+    "zhipu",
+    "chatbot"
+  ],
+  "napcat": {
+    "icon": "icon.png",
+    "tags": [
+      "AI",
+      "聊天"
+    ],
+    "minVersion": "4.14.0",
+    "homepage": "https://github.com/NapNeko/NapCatQQ"
+  }
+}
