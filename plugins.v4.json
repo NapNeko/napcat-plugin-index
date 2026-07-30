@@ -68,6 +68,23 @@
         "工具"
       ],
       "minVersion": "4.14.0"
+    },
+    {
+      "id": "napcat-plugin-philip",
+      "name": "菲利普",
+      "version": "1.0.0",
+      "description": "NapCatQQ 群管机器人套件 - 群管、积分、社交、运营、自动化、账号管理",
+      "author": "wangluoba12",
+      "homepage": "https://github.com/wangluoba12/feilipu",
+      "downloadUrl": "https://github.com/wangluoba12/feilipu/releases/download/1.0.0/napcat-plugin-philip.zip",
+      "tags": [
+        "群管",
+        "工具",
+        "管理",
+        "自动化",
+        "签到"
+      ],
+      "minVersion": "4.14.0"
     }
   ]
 }
