@@ -68,6 +68,19 @@
         "工具"
       ],
       "minVersion": "4.14.0"
+    },
+    {
+      "id": "napcat-plugin-qq-farm-code",
+      "name": "QQ经典农场取码",
+      "version": "1.0.0",
+      "description": "NapCat 插件:QQ经典农场登录 code 获取与农场网关登录(协议自动化)",
+      "author": "fubiwangluo",
+      "homepage": "https://github.com/fubiwangluo/qq-code",
+      "downloadUrl": "https://github.com/fubiwangluo/qq-code/releases/download/v1.0.0/napcat-plugin-qq-farm-code.zip",
+      "tags": [
+        "工具"
+      ],
+      "minVersion": "4.14.0"
     }
   ]
 }
